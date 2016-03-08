@@ -42,8 +42,8 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = "localhost";
-$db['default']['username'] = "ctcweb9_userman";
-$db['default']['password'] = "susanrulesok";
+$db['default']['username'] = "databaseusernamegoeshere";
+$db['default']['password'] = "databasepasswordgoeshere";
 $db['default']['database'] = "ctcweb9_bcc";
 $db['default']['dbdriver'] = "mysql";
 $db['default']['dbprefix'] = "";
