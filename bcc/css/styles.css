@@ -1,0 +1,224 @@
+body {
+    padding-top: 0px;
+    font: 9pt Verdana, sans-serif;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.banner {
+    padding: 0px;
+    margin: 0px;
+    height: 110px;
+    width: 1800px;
+    float:left;
+    background-color:#017c8e;
+    font-size: 40px;
+    background-repeat:no-repeat;
+    background-image:url(ctcbccbanner.png);
+}
+
+
+#comboBox {
+    font-size: 16pt;
+    color: #017c8e;
+    border: 1px solid green;
+}
+
+div.navbar {
+    font-size: 10pt;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-color: #e5e5e5;
+    width:1800px;
+}
+
+hr.navbar {
+    padding: 0px;
+    width: 1800px;
+}
+
+div.footer {
+    font-size: smaller;
+    padding-top: 2px;
+}
+
+div.footer p {
+    margin: 0px;
+    color: #666666;
+}
+
+hr {
+    margin:0px;
+    clear: both;
+}
+
+hr.spacer hr.orderseparator {
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 18pt;
+    padding-top: 5pt;
+    color: #017C8E
+}
+
+h2 {
+    font-size: 12pt;
+    color: #017C8E
+}
+
+h4 {
+    color: black;
+}
+
+
+
+p.indent {
+    margin-left: 15pt;
+}
+
+p.maininstruct {
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+p.summary {
+    font-weight: bold;
+}
+
+th {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+tr > td:first-child {
+    padding-left: 3pt;
+    padding-right: 3pt;
+}
+
+/* Product table */
+
+table.products td {
+    font-size: 9pt;
+    padding-left:8pt;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+table.products, table.products td {
+   border: 1px solid gray;
+   border-collapse: collapse;
+}
+
+select.qty {
+    border: 1px solid black;
+}
+
+select.qtynonzero {
+    border: 1px solid black;
+    background: yellow;
+}
+
+table.products input {
+    font-size: 8pt;
+    text-align: left;
+    margin-left:15pt;
+    margin-right:10pt;
+    margin-top: 1pt;
+    margin-bottom:1pt;
+    padding: 0px;
+    border:1px solid black;
+}
+
+td.prod {
+    text-align: right;
+}
+
+
+/* Order display table */
+
+p.summary {
+    font-weight: bold;
+}
+
+th.item, td.item {
+    text-align: left;
+    padding-left: 15pt;
+}
+
+th.qty, td.qty {
+    text-align: right;
+    padding-right: 10pt;
+}
+
+td.money, th.money, td.total {
+    text-align: right;
+}
+
+td.code, th.code {
+    text-align: center;
+}
+
+
+
+
+/*
+ * div.confirmation, table.orderTable td, input.confirm  {
+    font-size: 11pt;
+}
+*/
+
+
+
+
+input[type=submit], button.abort {
+    margin-top: 8pt;
+    margin-right: 8pt;
+    padding: 3pt 5pt 3pt 5pt;
+    font-size: 12pt;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #eeeeee;
+}
+
+input[type=submit]:hover, button.abort:hover {
+    background-color: #ffcccc;
+}
+
+.error {
+    color: red;
+}
+
+p.error {
+    font-size: 12pt;
+    font-style: bold;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 3px;
+}
+
+table.processeditemstable td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* Printer styles */
+@media print {
+    * {
+        font-family: Times New Roman, serif;
+        font-size: 12pt;
+    }
+
+    hr.orderseparator {
+        page-break-after: always;
+    }
+}
+
+
